@@ -20,8 +20,8 @@ response = ollama.chat(
                 + schema
                 + "Generate a SQL query for these tables for the following prompt: "
                 + query
-                + ". Don't include anything in your answer other than the query."
-                + "Your answer must include a SELECT and FROM clause, and other clauses if needed.",
+                + "Your answer must include a SELECT and FROM clause, and other clauses if needed."
+                + "Your answer must be a valid SQL query and nothing else.",
         },
     ],
 )
